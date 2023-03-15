@@ -32,7 +32,7 @@ export function Home() {
     },
   })
 
-  function handleCreateNewCycle(data: any) {
+  function handleCreateNewCycle(data: NewCycleFormData) {
     reset()
   }
 
